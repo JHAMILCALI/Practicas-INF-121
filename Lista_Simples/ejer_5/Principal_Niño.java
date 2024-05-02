@@ -11,7 +11,7 @@ public class Principal_Niño {
 		A.adiFinal("dani", 4);
 		A.adiFinal("abril", 1);
 		A.adiFinal("yon", 1);
-		A.adiFinal("jenry", 3);
+		A.adiFinal("divar", 3);
 		A.mostrar();
 		//a. Mostrar a los niños por secciones.
 		System.out.println("\n\t*****INCISO A******");
