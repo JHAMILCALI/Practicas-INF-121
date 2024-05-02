@@ -72,8 +72,9 @@ public class PrincipalNumeros {
 				nuevo.setDato(n);
 				nuevo.setSig(R.getSig());
 				R.setSig(nuevo);
+				R = nuevo.getSig();
 			}
-			R=R.getSig();
+			//R=R.getSig();
 		}
 		
 	}
