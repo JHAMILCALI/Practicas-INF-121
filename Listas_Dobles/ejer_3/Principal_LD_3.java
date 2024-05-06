@@ -36,6 +36,7 @@ public class Principal_LD_3 {
 		int canX=2;
 		inciso_b(A,B,areaX,canX);
 		System.out.println("\t Lista de Libros");
+		A.mostrar();
 		B.mostrar();
 	}
 
@@ -44,6 +45,8 @@ public class Principal_LD_3 {
 		while (R!=null) {
 			Area ar = R.getArea();
 			if (ar.getArea().equals(areaX)) {
+				int nrolibros= ar.getNroLibros()+canX;
+				ar.setNroLibros(nrolibros);
 				for (int i = 1; i <= canX; i++) {
 					Libro li = new Libro();
 					System.out.println("Intro libro ["+i+"]");
