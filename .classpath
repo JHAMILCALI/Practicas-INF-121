@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="Multi_Pila_Cola"/>
 	<classpathentry kind="src" path="Lista_Simples"/>
 	<classpathentry kind="src" path="Listas_Dobles"/>
+	<classpathentry kind="src" path="Multiple_Lista"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
