@@ -12,20 +12,16 @@ public class LS_NormalLaboratorio extends ListaSimpleLaboratorio{
 		return false;
 	}
 
-	public void adiPrincipio(Laboratorio z,LS_NormalMateria LMateria,LS_NormalResponsable LResponsable) {
+	public void adiPrincipio(Laboratorio z) {
 		NodoLaboratorio nuevo = new NodoLaboratorio();
 		nuevo.setLaboratorio(z);
-		nuevo.setLMateria(LMateria);
-		nuevo.setLResponsable(LResponsable);
 		nuevo.setSig(P); //el siguiente del nodo nuevo apunta a nodo raiz
 		P = nuevo;      //P apunta a nuevo
 	}
 	
-	public void adiFinal(Laboratorio z,LS_NormalMateria LMateria,LS_NormalResponsable LResponsable) {
+	public void adiFinal(Laboratorio z) {
 		NodoLaboratorio nuevo = new NodoLaboratorio();
 		nuevo.setLaboratorio(z);
-		nuevo.setLMateria(LMateria);
-		nuevo.setLResponsable(LResponsable);
 		if(esVacia())
 			P = nuevo;   //p apunta a nuevo
 		else {
@@ -43,8 +39,6 @@ public class LS_NormalLaboratorio extends ListaSimpleLaboratorio{
 		System.out.println("\t*****LISTA DE LABORIOS*****");
 		while(R != null) {
 			R.getLaboratorio().mostrar();
-			R.getLMateria().mostrar();
-			R.getLResponsable().mostrar();
 			System.out.println("===================================");
 			R = R.getSig();
 		}

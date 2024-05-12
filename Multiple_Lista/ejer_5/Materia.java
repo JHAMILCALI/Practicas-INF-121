@@ -18,7 +18,7 @@ public class Materia {
 		sigla=sc.next();
 	}
 	void mostrar() {
-		System.out.println("SIGLA: "+sigla);
+		System.out.println("\tSIGLA: "+sigla);
 	}
 	public String getSigla() {
 		return sigla;
