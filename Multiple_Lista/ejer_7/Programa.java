@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Programa {
 	private
 		String nomPrograma,tipo,horarioInicio,dia;
-		int duracion;
+		double duracion;
 		public
 		Programa() {
 			
 		}
-		public Programa(String nomPrograma, String tipo, String horarioInicio, String dia, int duracion) {
+		public Programa(String nomPrograma, String tipo, String horarioInicio, String dia, double duracion) {
 			super();
 			this.nomPrograma = nomPrograma;
 			this.tipo = tipo;
@@ -27,7 +27,7 @@ public class Programa {
 			System.out.println("Intro horario de Inicio> ");
 			horarioInicio=sc.next();
 			System.out.println("Intro Duracion> ");
-			duracion=sc.nextInt();
+			duracion=sc.nextDouble();
 			System.out.println("Intro dia> ");
 			dia=sc.next();
 		}
@@ -36,7 +36,7 @@ public class Programa {
 			System.out.println("TIPO: "+tipo);
 			System.out.println("HORA DE INICIO: "+horarioInicio);
 			System.out.println("DIA: "+dia);
-			System.out.println("DURACION : "+duracion);
+			System.out.println("DURACION : "+duracion+" hrs");
 		}
 		public String getNomPrograma() {
 			return nomPrograma;
@@ -62,10 +62,10 @@ public class Programa {
 		public void setDia(String dia) {
 			this.dia = dia;
 		}
-		public int getDuracion() {
+		public double getDuracion() {
 			return duracion;
 		}
-		public void setDuracion(int duracion) {
+		public void setDuracion(double duracion) {
 			this.duracion = duracion;
 		}
 }
