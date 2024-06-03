@@ -1,7 +1,6 @@
 package ejer_9;
 
 import java.util.Scanner;
-
 public class Principal_ML_9 {
 	public static void main(String[] args) {
 		LS_NormalDeporte A = new LS_NormalDeporte();
@@ -9,8 +8,7 @@ public class Principal_ML_9 {
 		A.adiFinal(new Deporte("Atletismo","Masculino","Correr los 500mt al rededor de "
 				+ "la pista y llegar a la meta en menor tiempo"));
 		A.adiFinal(new Deporte("Golf","Damas","Meter una peloto pequeña en un ollo en un campo amplio"));
-
-		
+	
 		LD_NormalParticipante B1 = new LD_NormalParticipante();
 		B1.adiFinal(new Participante("jose","Bolvia",21));
 		B1.adiFinal(new Participante("jorge","Chile",24));

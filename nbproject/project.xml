@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2seproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+            <name>Practica_Aux_inf_121</name>
+            <source-roots>
+                <root id="src.dir" name="Pila"/>
+                <root id="Colas.dir"/>
+                <root id="Multi_Pila_Cola.dir"/>
+                <root id="Lista_Simples.dir"/>
+                <root id="Listas_Dobles.dir"/>
+                <root id="Multiple_Lista.dir"/>
+            </source-roots>
+            <test-roots/>
+        </data>
+    </configuration>
+</project>

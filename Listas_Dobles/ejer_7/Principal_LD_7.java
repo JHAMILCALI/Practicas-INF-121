@@ -104,10 +104,7 @@ public class Principal_LD_7 {
 			}
 			S=S.getSig();
 		}
-		
-		
 	}
-
 	private static double mayor_precio(LD_NormalProducto a) {
 		Nodoproducto R = a.getP();
 		double max=Integer.MIN_VALUE;
@@ -120,7 +117,6 @@ public class Principal_LD_7 {
 		}
 		return max;
 	}
-
 	private static double menor_Precio(LD_NormalProducto a) {
 		Nodoproducto R = a.getP();
 		double men=Integer.MAX_VALUE;

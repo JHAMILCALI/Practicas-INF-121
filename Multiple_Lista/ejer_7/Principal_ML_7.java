@@ -80,7 +80,7 @@ public class Principal_ML_7 {
 			Canal ca = aux.getCanal();
 			a.adiFinal(ca);;
 			aux=aux.getSig();
-		}
+		}	
 	}
 
 	private static int MayorCantProg(LS_NormalCanal a) {
