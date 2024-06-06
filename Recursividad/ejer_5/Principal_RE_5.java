@@ -30,7 +30,8 @@ public class Principal_RE_5 {
 //			b. Contar a las Motocicletas del color “Rojo”.
 		System.out.println("\n\t***INCISO B****");
 		String colorX="Rojo";
-		System.out.println("La cantidad de motocicletas de color "+colorX+" es ["+contarColor(A,aux,0,colorX)+"]");
+		System.out.println("La cantidad de motocicletas de color "+colorX+" es ["
+		+contarColor(A,aux,0,colorX)+"]");
 	}
 
 	private static int contarColor(PilaMotocicleta a, PilaMotocicleta aux, int existe, String colorX) {
@@ -48,7 +49,8 @@ public class Principal_RE_5 {
 		
 	}
 
-	private static boolean verificar_Auto(PilaMotocicleta a, PilaMotocicleta aux, int existe, String marcaX) {
+	private static boolean verificar_Auto(PilaMotocicleta a, PilaMotocicleta aux, int existe,
+			String marcaX) {
 		if (!a.esVacia()) {
 			Motocicleta mot = a.eli();
 			if (mot.getMarca().equals(marcaX)) {

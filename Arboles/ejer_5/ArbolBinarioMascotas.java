@@ -8,19 +8,19 @@ package ejer_5;
  *
  * @author print
  */
-public class ArbolBinarioPersona {
+public class ArbolBinarioMascotas {
     
-    protected nodoPersona raiz;
+    protected nodoMascotas raiz;
 
-    public nodoPersona getRaiz() {
+    public nodoMascotas getRaiz() {
         return raiz;
     }
 
-    public void setRaiz(nodoPersona raiz) {
+    public void setRaiz(nodoMascotas raiz) {
         this.raiz = raiz;
     }
 
-    public ArbolBinarioPersona() {
+    public ArbolBinarioMascotas() {
         raiz=null;
     }    
 }

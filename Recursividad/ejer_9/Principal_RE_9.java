@@ -1,4 +1,4 @@
-package ejer_9;
+	package ejer_9;
 
 import java.util.Scanner;
 

@@ -1,9 +1,9 @@
 package ejer_5;
-public class ColaElementos extends VectorElementos{
+public class ColaMascotas extends VectorMascotas{
 	protected int fr;
 	protected int fi;
 	
-	public ColaElementos() {
+	public ColaMascotas() {
 		this.fr = 0;
 		this.fi = 0;
 	}

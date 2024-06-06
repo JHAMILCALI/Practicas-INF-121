@@ -8,35 +8,35 @@ package ejer_5;
  *
  * @author print
  */
-public class nodoPersona {
-    private nodoPersona izq,der;
+public class nodoMascotas {
+    private nodoMascotas izq,der;
 
-    public void setIzq(nodoPersona izq) {
+    public void setIzq(nodoMascotas izq) {
         this.izq = izq;
     }
 
-    public void setDer(nodoPersona der) {
+    public void setDer(nodoMascotas der) {
         this.der = der;
     }
 
-    public void setA(Persona A) {
+    public void setA(Mascotas A) {
         this.A = A;
     }
-    private Persona A;
+    private Mascotas A;
 
-    public nodoPersona getIzq() {
+    public nodoMascotas getIzq() {
         return izq;
     }
 
-    public nodoPersona getDer() {
+    public nodoMascotas getDer() {
         return der;
     }
 
-    public Persona getA() {
+    public Mascotas getA() {
         return A;
     }
     
-    public nodoPersona(){
+    public nodoMascotas(){
        izq=der=null;
     }
 }
